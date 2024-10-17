@@ -1,0 +1,203 @@
+/* mobile first approch */
+
+@media(min-width:768px){
+
+    .about-Area h1{
+        font-size: 40px;
+        }
+        .about-Text{
+            width: 600px;
+            gap: 20px;
+        }
+        .about-Img{
+            
+            display: block;
+            
+        }
+
+
+
+    #top-sec{
+        height: 550px;
+    }
+     #bars{
+        display: none;
+    }
+    nav ul{
+        position: initial;
+        flex-direction: initial;
+        padding-left: initial;
+        padding-top: initial;
+        width: initial;
+        height: auto;
+        background-color: initial;
+        color: initial;
+    }
+    .content p{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .content h1{
+        font-size: 50px;
+    }
+    .container{
+        max-width: 950px;
+    }
+    .container-1st div{
+        max-width: 63%;                                                                     
+       flex: 0 0 75%;
+       
+    }
+    .container-1st div h1{
+        /* line-height: 30px !important; */
+        font-size: 25px;
+        color: #222;
+        line-height: 1.2em !important;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    .container-1st .paties{
+        max-width: 18%;
+        display: flex;
+        padding-top: 150px;
+        padding-left: 60px;
+    }
+    .category-Img,.category-Img2{
+        flex-wrap: wrap;
+        flex-direction: initial;
+    }
+    .food-Img p{
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+    .video-Textarea{
+        margin: 10px auto;
+        align-items: center;
+        flex-direction: initial;
+        justify-content: center;
+    }
+    .vidi-txt{
+        max-width: 100%;
+        padding-left: 60px;
+    }
+    .vidi-space{
+        max-width: 100%;
+        /* padding: 60px; */
+    }
+
+
+    .vidi-txt h4{
+        color: #d1ab7f ;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+    }
+    .vidi-txt h1{
+        padding-left: 40px;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    
+
+}
+@media(min-width:992px){
+
+    .about-Area h4{
+        font-size: 22px;
+    }
+    
+    .about-Area h1{
+        font-size: 44px;
+        }
+        .about-Text{
+            width: 800px;
+            gap: 20px;
+        }
+        .about-Img{
+
+            display: block;
+            
+        }
+       
+    #top-sec{
+        height: 600px;
+    }
+    .top-tray{
+        display: flex;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .content h1{
+        font-size: 72px;
+    }
+    .sticky-nav .nav-bg-sticky{
+        opacity: 1 !important;
+        visibility: visible ;
+    }
+    .container{
+        max-width: 1000px;
+    }
+    /* .container-1st{
+        max-width: 100%;
+    } */
+    .container-1st div{
+        max-width: 72%;
+       flex: 0 0 75%;
+    }
+    .container-1st div h1{
+        /* line-height: 30px !important; */
+        font-size: 30px;
+        color: #222;
+        line-height: 1.2em !important;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-weight: 600;
+    }
+    .container-1st .paties{
+        max-width: 23%;
+        display: flex;
+        padding-top: 150px;
+        padding-left: 60px;
+    }
+    
+    .category-Img,.category-Img2{
+       display: flex;
+       flex-wrap: initial;
+       flex-direction: initial;
+    }
+    .food-Img p{
+        font-size: 12px;
+    }
+    .video-Textarea{
+         margin: 10px auto;
+        align-items: center;
+        flex-direction: initial;
+        justify-content: center;
+    }
+    .vidi-txt{
+        max-width: 50%;
+        padding-left: 50px;
+    }
+    .vidi-space{
+        max-width: 50%;
+        padding: 50px;
+    }
+    .vidi-txt h4{
+        color: #d1ab7f ;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+    }
+    .vidi-txt h1{
+        padding-left: 40px;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    
+}
